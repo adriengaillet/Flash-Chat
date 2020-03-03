@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19421179526C7E8235B5F6B5 /* Pods_Flash_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 602CC3C57B5FB8A4E3D40EF4 /* Pods_Flash_Chat.framework */; };
+		7AB0A692240D3EC300CE62B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB0A691240D3EC300CE62B1 /* AppDelegate.swift */; };
+		7AB0A694240D3EC300CE62B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB0A693240D3EC300CE62B1 /* SceneDelegate.swift */; };
+		7AB0A699240D3EC300CE62B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AB0A697240D3EC300CE62B1 /* Main.storyboard */; };
+		7AB0A69B240D3ECA00CE62B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AB0A69A240D3ECA00CE62B1 /* Assets.xcassets */; };
+		7AB0A69E240D3ECA00CE62B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AB0A69C240D3ECA00CE62B1 /* LaunchScreen.storyboard */; };
+		7AB0A6AB240D4B3B00CE62B1 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB0A6AA240D4B3B00CE62B1 /* RegisterViewController.swift */; };
+		7AB0A6AF240D4B7200CE62B1 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB0A6AE240D4B7200CE62B1 /* LogInViewController.swift */; };
+		7AB0A6B1240D4B9100CE62B1 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB0A6B0240D4B9100CE62B1 /* WelcomeViewController.swift */; };
+		7AB0A6B3240D4BA600CE62B1 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB0A6B2240D4BA600CE62B1 /* ChatViewController.swift */; };
+		7AB0A6B7240D4D5E00CE62B1 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AB0A6B6240D4D5E00CE62B1 /* MessageCell.xib */; };
+		7AB0A6B9240D546900CE62B1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7AB0A6B8240D546900CE62B1 /* GoogleService-Info.plist */; };
+		7AB0A6BB240D575100CE62B1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB0A6BA240D575100CE62B1 /* Constants.swift */; };
+		7AB0A6BD240D682200CE62B1 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB0A6BC240D682200CE62B1 /* Message.swift */; };
+		7AB0A6BF240D68D200CE62B1 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB0A6BE240D68D200CE62B1 /* MessageCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09598EC5DDB45319505035F8 /* Pods-Flash Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat.release.xcconfig"; path = "Target Support Files/Pods-Flash Chat/Pods-Flash Chat.release.xcconfig"; sourceTree = "<group>"; };
+		602CC3C57B5FB8A4E3D40EF4 /* Pods_Flash_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flash_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AB0A68E240D3EC300CE62B1 /* Flash Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flash Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AB0A691240D3EC300CE62B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7AB0A693240D3EC300CE62B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7AB0A698240D3EC300CE62B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AB0A69A240D3ECA00CE62B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AB0A69D240D3ECA00CE62B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7AB0A69F240D3ECA00CE62B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AB0A6AA240D4B3B00CE62B1 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegisterViewController.swift; path = "Flash Chat/Controller/RegisterViewController.swift"; sourceTree = SOURCE_ROOT; };
+		7AB0A6AE240D4B7200CE62B1 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LogInViewController.swift; path = "Flash Chat/Controller/LogInViewController.swift"; sourceTree = SOURCE_ROOT; };
+		7AB0A6B0240D4B9100CE62B1 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WelcomeViewController.swift; path = "Flash Chat/Controller/WelcomeViewController.swift"; sourceTree = SOURCE_ROOT; };
+		7AB0A6B2240D4BA600CE62B1 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChatViewController.swift; path = "Flash Chat/Controller/ChatViewController.swift"; sourceTree = SOURCE_ROOT; };
+		7AB0A6B6240D4D5E00CE62B1 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		7AB0A6B8240D546900CE62B1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7AB0A6BA240D575100CE62B1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7AB0A6BC240D682200CE62B1 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		7AB0A6BE240D68D200CE62B1 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		A6D869265FCF08138A82134B /* Pods-Flash Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat.debug.xcconfig"; path = "Target Support Files/Pods-Flash Chat/Pods-Flash Chat.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AB0A68B240D3EC300CE62B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19421179526C7E8235B5F6B5 /* Pods_Flash_Chat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AB0A685240D3EC300CE62B1 = {
+			isa = PBXGroup;
+			children = (
+				7AB0A690240D3EC300CE62B1 /* Flash Chat */,
+				7AB0A68F240D3EC300CE62B1 /* Products */,
+				CA47322CE9C0E56A8C519D39 /* Pods */,
+				7C3187B4AFE67E624681311F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7AB0A68F240D3EC300CE62B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AB0A68E240D3EC300CE62B1 /* Flash Chat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AB0A690240D3EC300CE62B1 /* Flash Chat */ = {
+			isa = PBXGroup;
+			children = (
+				7AB0A691240D3EC300CE62B1 /* AppDelegate.swift */,
+				7AB0A693240D3EC300CE62B1 /* SceneDelegate.swift */,
+				7AB0A6BA240D575100CE62B1 /* Constants.swift */,
+				7AB0A6A5240D3EDB00CE62B1 /* Model */,
+				7AB0A6A6240D3EFC00CE62B1 /* View */,
+				7AB0A6A7240D3F0D00CE62B1 /* Controller */,
+				7AB0A69A240D3ECA00CE62B1 /* Assets.xcassets */,
+				7AB0A69C240D3ECA00CE62B1 /* LaunchScreen.storyboard */,
+				7AB0A69F240D3ECA00CE62B1 /* Info.plist */,
+				7AB0A6B8240D546900CE62B1 /* GoogleService-Info.plist */,
+			);
+			path = "Flash Chat";
+			sourceTree = "<group>";
+		};
+		7AB0A6A5240D3EDB00CE62B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7AB0A6BC240D682200CE62B1 /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7AB0A6A6240D3EFC00CE62B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7AB0A697240D3EC300CE62B1 /* Main.storyboard */,
+				7AB0A6B6240D4D5E00CE62B1 /* MessageCell.xib */,
+				7AB0A6BE240D68D200CE62B1 /* MessageCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7AB0A6A7240D3F0D00CE62B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7AB0A6B0240D4B9100CE62B1 /* WelcomeViewController.swift */,
+				7AB0A6AA240D4B3B00CE62B1 /* RegisterViewController.swift */,
+				7AB0A6AE240D4B7200CE62B1 /* LogInViewController.swift */,
+				7AB0A6B2240D4BA600CE62B1 /* ChatViewController.swift */,
+			);
+			name = Controller;
+			path = View;
+			sourceTree = "<group>";
+		};
+		7C3187B4AFE67E624681311F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				602CC3C57B5FB8A4E3D40EF4 /* Pods_Flash_Chat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA47322CE9C0E56A8C519D39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6D869265FCF08138A82134B /* Pods-Flash Chat.debug.xcconfig */,
+				09598EC5DDB45319505035F8 /* Pods-Flash Chat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AB0A68D240D3EC300CE62B1 /* Flash Chat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AB0A6A2240D3ECA00CE62B1 /* Build configuration list for PBXNativeTarget "Flash Chat" */;
+			buildPhases = (
+				C2D2D8EB972DDAD5122729DD /* [CP] Check Pods Manifest.lock */,
+				7AB0A68A240D3EC300CE62B1 /* Sources */,
+				7AB0A68B240D3EC300CE62B1 /* Frameworks */,
+				7AB0A68C240D3EC300CE62B1 /* Resources */,
+				CA700C643853AB5F7B04C22A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flash Chat";
+			productName = "Flash Chat";
+			productReference = 7AB0A68E240D3EC300CE62B1 /* Flash Chat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AB0A686240D3EC300CE62B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Adrien GAILLET";
+				TargetAttributes = {
+					7AB0A68D240D3EC300CE62B1 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 7AB0A689240D3EC300CE62B1 /* Build configuration list for PBXProject "Flash Chat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AB0A685240D3EC300CE62B1;
+			productRefGroup = 7AB0A68F240D3EC300CE62B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AB0A68D240D3EC300CE62B1 /* Flash Chat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AB0A68C240D3EC300CE62B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AB0A69E240D3ECA00CE62B1 /* LaunchScreen.storyboard in Resources */,
+				7AB0A6B7240D4D5E00CE62B1 /* MessageCell.xib in Resources */,
+				7AB0A6B9240D546900CE62B1 /* GoogleService-Info.plist in Resources */,
+				7AB0A69B240D3ECA00CE62B1 /* Assets.xcassets in Resources */,
+				7AB0A699240D3EC300CE62B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C2D2D8EB972DDAD5122729DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flash Chat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA700C643853AB5F7B04C22A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flash Chat/Pods-Flash Chat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flash Chat/Pods-Flash Chat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Flash Chat/Pods-Flash Chat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AB0A68A240D3EC300CE62B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AB0A692240D3EC300CE62B1 /* AppDelegate.swift in Sources */,
+				7AB0A6B1240D4B9100CE62B1 /* WelcomeViewController.swift in Sources */,
+				7AB0A694240D3EC300CE62B1 /* SceneDelegate.swift in Sources */,
+				7AB0A6AF240D4B7200CE62B1 /* LogInViewController.swift in Sources */,
+				7AB0A6BB240D575100CE62B1 /* Constants.swift in Sources */,
+				7AB0A6BD240D682200CE62B1 /* Message.swift in Sources */,
+				7AB0A6B3240D4BA600CE62B1 /* ChatViewController.swift in Sources */,
+				7AB0A6AB240D4B3B00CE62B1 /* RegisterViewController.swift in Sources */,
+				7AB0A6BF240D68D200CE62B1 /* MessageCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7AB0A697240D3EC300CE62B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AB0A698240D3EC300CE62B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7AB0A69C240D3ECA00CE62B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AB0A69D240D3ECA00CE62B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AB0A6A0240D3ECA00CE62B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7AB0A6A1240D3ECA00CE62B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AB0A6A3240D3ECA00CE62B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6D869265FCF08138A82134B /* Pods-Flash Chat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Flash Chat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adrigaillet.Flash-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AB0A6A4240D3ECA00CE62B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09598EC5DDB45319505035F8 /* Pods-Flash Chat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Flash Chat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adrigaillet.Flash-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AB0A689240D3EC300CE62B1 /* Build configuration list for PBXProject "Flash Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AB0A6A0240D3ECA00CE62B1 /* Debug */,
+				7AB0A6A1240D3ECA00CE62B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AB0A6A2240D3ECA00CE62B1 /* Build configuration list for PBXNativeTarget "Flash Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AB0A6A3240D3ECA00CE62B1 /* Debug */,
+				7AB0A6A4240D3ECA00CE62B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AB0A686240D3EC300CE62B1 /* Project object */;
+}
